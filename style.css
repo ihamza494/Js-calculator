@@ -8,9 +8,14 @@ body h1 {
   color: rgb(128, 44, 128);
   text-align: center;
 }
+.cal_Top {
+  text-align: center;
+  color: rgb(151, 32, 71);
+  font-family: "Courier New", Courier, monospace;
+}
 .calculator {
   border: 2px solid black;
-  min-height: 500px;
+  min-height: 650px;
   width: 350px;
   margin: 0 auto;
   background-color: rgb(210, 100, 237);
@@ -21,13 +26,13 @@ body h1 {
 .calculator_Output {
   border: 1px solid black;
   height: 200px;
-  border-bottom-left-radius: 22px;
-  border-bottom-right-radius: 22px;
+  border-radius: 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   padding: 0 25px;
+  margin-top: 35px;
 }
 
 .calculator_Output_Accumulator {

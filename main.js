@@ -16,6 +16,11 @@ const update_Display_View = (number) => {
     
 }
 
+const update_Top_Description = (xname) => {
+    const descEle = document.querySelector('.cal_Top')
+    descEle.innerHTML = `Hi ${xname} Thank you for using this <3`
+
+}
 
 const digit_Pressed = (number) => {
     const totElement = document.querySelector('.calculator_Output_Display')
@@ -67,6 +72,8 @@ const clear_Cal = ()=> {
 }
 
 const main = () => {
+    const Uname = prompt("Enter your name:");
+    update_Top_Description(Uname);
     update_Display_View(0);
 }
 
